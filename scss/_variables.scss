@@ -1,19 +1,23 @@
 // Colors
-$white: #fff;
-$black: #000;
-$turquoise: #84CCD3;
-$gray: #999; // paragraph text
-$darkGray: #5F5F5F; // headings, footer top background color
-$lightGray: #A19D9D; // paragraph text
+$white:#fff;
+ $black:#000;
+ $turquoise:#84CCD3;
+ $gray:#999; // paragraph text
+$darkGray:#5F5F5F; // headings, footer top background color
+$lightGray:#A19D9D; // paragraph text
 
 // Typography
-$baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$baseFontSize: 11px; // measure
-$baseLineHeight: inherit;
-$headingsFontFamily: "Lato", sans-serif;
-$h1FontSize: 39px; // measure
-$h1FontWeight: 100;
-$h2FontSize: 23px; // measure
-$h2FontWeight: 300;
-$h3FontSize: 17px; // measure
-$h3FontWeight: 200;
+$baseFontFamily:"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+ $baseFontSize:11px; // measure
+$baseLineHeight:inherit;
+ $headingsFontFamily:"Lato",
+sans-serif;
+ $h1FontSize:39px; // measure
+$h1FontWeight:100;
+ $h2FontSize:23px; // measure
+$h2FontWeight:300;
+ $h3FontSize:17px; // measure
+$h3FontWeight:200;

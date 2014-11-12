@@ -8,7 +8,7 @@ body {
   background-color: white;
 }
 
-/* line 9, ../scss/_typography.scss */
+/* line 8, ../scss/_typography.scss */
 h1 {
   font-family: "Lato", sans-serif;
   font-size: 39px;
@@ -17,7 +17,7 @@ h1 {
   background-color: black;
 }
 
-/* line 17, ../scss/_typography.scss */
+/* line 15, ../scss/_typography.scss */
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 23px;
@@ -25,7 +25,7 @@ h2 {
   color: #5f5f5f;
 }
 
-/* line 24, ../scss/_typography.scss */
+/* line 21, ../scss/_typography.scss */
 h3 {
   font-family: "Lato", sans-serif;
   font-size: 17px;
@@ -33,11 +33,11 @@ h3 {
   color: #999999;
 }
 
-/* line 31, ../scss/_typography.scss */
+/* line 27, ../scss/_typography.scss */
 a {
   color: inherit;
 }
-/* line 34, ../scss/_typography.scss */
+/* line 29, ../scss/_typography.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -47,32 +47,217 @@ a:hover, a:focus {
   background-color: black;
 }
 
-/* line 5, ../scss/_patterns.scss */
+/* line 4, ../scss/_patterns.scss */
 .footer-top {
   background-color: #5f5f5f;
   color: white;
 }
-/* line 8, ../scss/_patterns.scss */
+/* line 7, ../scss/_patterns.scss */
 .footer-top h2 {
   color: #84ccd3;
 }
 
-/* line 13, ../scss/_patterns.scss */
+/* line 11, ../scss/_patterns.scss */
 .footer-bottom {
   background-color: black;
 }
 
-/* line 17, ../scss/_patterns.scss */
+/* line 14, ../scss/_patterns.scss */
 .message {
   background: #84ccd3;
 }
-/* line 19, ../scss/_patterns.scss */
+/* line 16, ../scss/_patterns.scss */
 .message h2 {
   color: white;
 }
 
-/* line 24, ../scss/_patterns.scss */
+/* line 20, ../scss/_patterns.scss */
 .lead {
   color: #84ccd3;
   text-transform: capitalize;
+}
+
+/* line 24, ../scss/_patterns.scss */
+.contentbox {
+  background-color: transparent;
+  color: #999999;
+  position: relative;
+}
+/* line 26, ../scss/_patterns.scss */
+.contentbox h2 {
+  margin-bottom: 36px;
+}
+/* line 29, ../scss/_patterns.scss */
+.contentbox p {
+  margin-bottom: 40px;
+}
+/* line 33, ../scss/_patterns.scss */
+.contentbox a,
+.contentbox .fa {
+  color: #84ccd3;
+}
+
+/* line 37, ../scss/_patterns.scss */
+.contentbox-var1 {
+  border-bottom: 5px solid #cfebee;
+  margin-top: 155px;
+  margin-bottom: 120px;
+}
+
+/* line 42, ../scss/_patterns.scss */
+.vertical-middle {
+  position: absolute;
+  left: 50%;
+  top: .5em;
+}
+
+@media (max-width: 768px) {
+  /* line 48, ../scss/_patterns.scss */
+  .vertical-middle {
+    position: static;
+  }
+}
+/* line 52, ../scss/_patterns.scss */
+.message {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding-top: 142px;
+  padding-bottom: 156px;
+}
+
+/* line 57, ../scss/_patterns.scss */
+.image-break {
+  background: white url(../images/paper-texture.jpg) repeat-x;
+  height: 45px;
+}
+
+/* line 61, ../scss/_patterns.scss */
+.titlebox {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+/* line 64, ../scss/_patterns.scss */
+.titlebox em {
+  color: black;
+}
+
+/* line 69, ../scss/_patterns.scss */
+.titlebox:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 44%;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #84ccd3 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+
+/* line 81, ../scss/_patterns.scss */
+.clients {
+  padding-top: 76px;
+  padding-bottom: 140px;
+}
+
+/* line 85, ../scss/_patterns.scss */
+.breadcrumb {
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+/* line 90, ../scss/_patterns.scss */
+.pricing-table {
+  border: 1px solid #a19d9d;
+  border-bottom: 7px solid #a19d9d;
+  margin-bottom: -10px;
+  margin-bottom: 40px;
+}
+/* line 95, ../scss/_patterns.scss */
+.pricing-table li {
+  color: black;
+  padding: 20px;
+  border-bottom: 1px dotted #a19d9d;
+  font-weight: bold;
+}
+/* line 101, ../scss/_patterns.scss */
+.pricing-table .price {
+  font-size: 26px;
+  border-bottom: 1px dotted #a19d9d;
+  margin-top: 0;
+}
+/* line 106, ../scss/_patterns.scss */
+.pricing-table .info {
+  font-weight: normal;
+  font-size: 13px;
+  color: #999999;
+}
+
+/* line 112, ../scss/_patterns.scss */
+.btn-price {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  border-bottom: 5px solid #3fa7b2;
+}
+
+/* line 116, ../scss/_patterns.scss */
+.article-date {
+  background-color: black;
+  color: #84ccd3;
+  position: relative;
+  padding: 10px;
+}
+/* line 119, ../scss/_patterns.scss */
+.article-date h2 {
+  font-size: measure;
+  margin: 0;
+}
+/* line 123, ../scss/_patterns.scss */
+.article-date h3 {
+  color: white;
+  margin: 0;
+}
+
+/* line 129, ../scss/_patterns.scss */
+.sidebar-links li {
+  padding: 5px 0 5px 0;
+}
+/* line 132, ../scss/_patterns.scss */
+.sidebar-links a {
+  color: #84ccd3;
+  text-decoration: none;
+}
+
+/* line 138, ../scss/_patterns.scss */
+.form-control {
+  background-color: #a19d9d;
+  margin-bottom: 10px;
+}
+
+/* line 143, ../scss/_patterns.scss */
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+/* line 146, ../scss/_patterns.scss */
+.btn-primary:hover {
+  background-color: #5f5f5f;
+}
+
+/* line 150, ../scss/_patterns.scss */
+.map {
+  height: measure;
+}
+/* line 152, ../scss/_patterns.scss */
+.map iframe {
+  background-color: transparent;
+  border: medium none;
+  height: inherit;
+  overflow: hidden;
+  width: 100%;
 }
