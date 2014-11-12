@@ -1,0 +1,14 @@
+.ng-enter {
+    @include transition(ls, linear, all);
+    opacity: 0;
+}
+.ng-enter-active,
+.ng-leave {
+    opacity: 1;
+}
+.ng-leave {
+    opacity: 1;
+}
+.ng-leave-active {
+    opacity: 0;
+}

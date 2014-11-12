@@ -5,3 +5,39 @@ $color) {
     color: $color;
     position: relative; // Reference point for absolutely positioning child element
 }
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin box-shadow($arg1, $arg2, $arg3, $arg4) {
+    -moz-box-shadow: $arg1 $arg2 $arg3 $arg4;
+    -webkit-box-shadow: $arg1 $arg2 $arg3 $arg4;
+    box-shadow: $arg1 $arg2 $arg3 $arg4;
+}
+@mixin animation-delay($delay) {
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    animation-delay: $delay;
+}
+@mixin animation($arg1, $arg2, $arg3) {
+    -webkit-animation: $arg1 $arg2 $arg3;
+    -moz-animation: $arg1 $arg2 $arg3;
+    animation: $arg1 $arg2 $arg3;
+}
+@mixin animation-fill-mode($mode) {
+    -webkit-animation-fill-mode: $mode;
+    -moz-animation-fill-mode: $mode;
+    animation-fill-mode: $mode;
+    
+}
+@mixin animation-duration($duration) {
+    -webkit-animation-duration: $duration;
+    -moz-animation-duration: $duration;
+    animation-duration: $duration;
+}
+@mixin transition($arg1, $arg2, $arg3) {
+    -webkit-transition: $arg1 $arg2 $arg3;
+    -moz-transition: $arg1 $arg2 $arg3;
+    transition: $arg1 $arg2 $arg3;
+}
