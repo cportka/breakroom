@@ -14,10 +14,9 @@ h1 {
   font-size: 39px;
   font-weight: 100;
   color: white;
-  background-color: black;
 }
 
-/* line 15, ../scss/_typography.scss */
+/* line 14, ../scss/_typography.scss */
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 23px;
@@ -25,7 +24,7 @@ h2 {
   color: #5f5f5f;
 }
 
-/* line 21, ../scss/_typography.scss */
+/* line 20, ../scss/_typography.scss */
 h3 {
   font-family: "Lato", sans-serif;
   font-size: 17px;
@@ -33,11 +32,11 @@ h3 {
   color: #999999;
 }
 
-/* line 27, ../scss/_typography.scss */
+/* line 26, ../scss/_typography.scss */
 a {
   color: inherit;
 }
-/* line 29, ../scss/_typography.scss */
+/* line 28, ../scss/_typography.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -85,40 +84,40 @@ a:hover, a:focus {
 }
 /* line 26, ../scss/_patterns.scss */
 .contentbox h2 {
-  margin-top: 0px;
   margin-bottom: 36px;
 }
-/* line 30, ../scss/_patterns.scss */
+/* line 29, ../scss/_patterns.scss */
 .contentbox p {
   margin-bottom: 40px;
 }
-/* line 34, ../scss/_patterns.scss */
+/* line 33, ../scss/_patterns.scss */
 .contentbox a,
 .contentbox .fa {
   color: #84ccd3;
 }
 
-/* line 38, ../scss/_patterns.scss */
+/* line 37, ../scss/_patterns.scss */
 .contentbox-var1 {
   border-bottom: 5px solid #cfebee;
   margin-top: 155px;
   margin-bottom: 120px;
 }
 
-/* line 43, ../scss/_patterns.scss */
-.vertical-middle {
-  position: absolute;
-  left: 50%;
-  top: .5em;
+@media (min-width: 768px) {
+  /* line 43, ../scss/_patterns.scss */
+  .vertical-middle {
+    position: absolute;
+    left: 50%;
+    top: .5em;
+  }
 }
-
 @media (max-width: 768px) {
-  /* line 49, ../scss/_patterns.scss */
+  /* line 50, ../scss/_patterns.scss */
   .vertical-middle {
     position: static;
   }
 }
-/* line 53, ../scss/_patterns.scss */
+/* line 54, ../scss/_patterns.scss */
 .message {
   background-color: #84ccd3;
   color: white;
@@ -127,25 +126,25 @@ a:hover, a:focus {
   padding-bottom: 156px;
 }
 
-/* line 58, ../scss/_patterns.scss */
+/* line 59, ../scss/_patterns.scss */
 .image-break {
   background: white url(../images/paper-texture.jpg) repeat-x;
   height: 45px;
 }
 
-/* line 62, ../scss/_patterns.scss */
+/* line 63, ../scss/_patterns.scss */
 .titlebox {
   background-color: #84ccd3;
   color: white;
   position: relative;
   padding: 10px;
 }
-/* line 65, ../scss/_patterns.scss */
+/* line 66, ../scss/_patterns.scss */
 .titlebox em {
   color: black;
 }
 
-/* line 70, ../scss/_patterns.scss */
+/* line 71, ../scss/_patterns.scss */
 .titlebox:after {
   content: "";
   position: absolute;
@@ -159,46 +158,46 @@ a:hover, a:focus {
   z-index: 1;
 }
 
-/* line 82, ../scss/_patterns.scss */
+/* line 83, ../scss/_patterns.scss */
 .clients {
   padding-top: 76px;
   padding-bottom: 140px;
 }
 
-/* line 86, ../scss/_patterns.scss */
+/* line 87, ../scss/_patterns.scss */
 .breadcrumb {
   margin-top: 24px;
   margin-bottom: 36px;
 }
 
-/* line 91, ../scss/_patterns.scss */
+/* line 92, ../scss/_patterns.scss */
 .pricing-table {
   border: 1px solid #a19d9d;
   border-bottom: 7px solid #a19d9d;
   margin-bottom: -10px;
   margin-bottom: 40px;
 }
-/* line 96, ../scss/_patterns.scss */
+/* line 97, ../scss/_patterns.scss */
 .pricing-table li {
   color: black;
   padding: 20px;
   border-bottom: 1px dotted #a19d9d;
   font-weight: bold;
 }
-/* line 102, ../scss/_patterns.scss */
+/* line 103, ../scss/_patterns.scss */
 .pricing-table .price {
   font-size: 26px;
   border-bottom: 1px dotted #a19d9d;
   margin-top: 0;
 }
-/* line 107, ../scss/_patterns.scss */
+/* line 108, ../scss/_patterns.scss */
 .pricing-table .info {
   font-weight: normal;
   font-size: 13px;
   color: #999999;
 }
 
-/* line 113, ../scss/_patterns.scss */
+/* line 114, ../scss/_patterns.scss */
 .btn-price {
   background-color: #84ccd3;
   color: white;
@@ -206,55 +205,55 @@ a:hover, a:focus {
   border-bottom: 5px solid #3fa7b2;
 }
 
-/* line 117, ../scss/_patterns.scss */
+/* line 118, ../scss/_patterns.scss */
 .article-date {
   background-color: black;
   color: #84ccd3;
   position: relative;
   padding: 10px;
 }
-/* line 120, ../scss/_patterns.scss */
+/* line 121, ../scss/_patterns.scss */
 .article-date h2 {
   font-size: measure;
   margin: 0;
 }
-/* line 124, ../scss/_patterns.scss */
+/* line 125, ../scss/_patterns.scss */
 .article-date h3 {
   color: white;
   margin: 0;
 }
 
-/* line 130, ../scss/_patterns.scss */
+/* line 131, ../scss/_patterns.scss */
 .sidebar-links li {
   padding: 5px 0 5px 0;
 }
-/* line 133, ../scss/_patterns.scss */
+/* line 134, ../scss/_patterns.scss */
 .sidebar-links a {
   color: #84ccd3;
   text-decoration: none;
 }
 
-/* line 139, ../scss/_patterns.scss */
+/* line 140, ../scss/_patterns.scss */
 .form-control {
   background-color: #a19d9d;
   margin-bottom: 10px;
 }
 
-/* line 144, ../scss/_patterns.scss */
+/* line 145, ../scss/_patterns.scss */
 .btn-primary {
   background-color: black;
   border-color: black;
 }
-/* line 147, ../scss/_patterns.scss */
+/* line 148, ../scss/_patterns.scss */
 .btn-primary:hover {
   background-color: #5f5f5f;
 }
 
-/* line 151, ../scss/_patterns.scss */
+/* line 152, ../scss/_patterns.scss */
 .map {
   height: measure;
 }
-/* line 153, ../scss/_patterns.scss */
+/* line 154, ../scss/_patterns.scss */
 .map iframe {
   background-color: transparent;
   border: medium none;
@@ -263,13 +262,13 @@ a:hover, a:focus {
   width: 100%;
 }
 
-/* line 161, ../scss/_patterns.scss */
+/* line 162, ../scss/_patterns.scss */
 .project {
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
 }
-/* line 165, ../scss/_patterns.scss */
+/* line 166, ../scss/_patterns.scss */
 .project a {
   background-color: #84ccd3;
   color: white;
@@ -287,37 +286,37 @@ a:hover, a:focus {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 180, ../scss/_patterns.scss */
+/* line 181, ../scss/_patterns.scss */
 .project a:hover {
   bottom: 0;
   opacity: .9;
   transition: opacity 0.3s ease-in-out 0s, bottom 0.4s cubic-bezier(0.25, 0.5, 0, 1) 0s;
 }
 
-/* line 186, ../scss/_patterns.scss */
+/* line 187, ../scss/_patterns.scss */
 .project-title {
   display: table;
   width: 100%;
   height: 90%;
 }
-/* line 190, ../scss/_patterns.scss */
+/* line 191, ../scss/_patterns.scss */
 .project-title span {
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 195, ../scss/_patterns.scss */
+/* line 196, ../scss/_patterns.scss */
 .price-plan:hover {
   -moz-box-shadow: 0 0 20px #999999;
   -webkit-box-shadow: 0 0 20px #999999;
   box-shadow: 0 0 20px #999999;
 }
 
-/* line 198, ../scss/_patterns.scss */
+/* line 199, ../scss/_patterns.scss */
 .price-plan:hover .titlebox {
   background-color: black;
 }
-/* line 200, ../scss/_patterns.scss */
+/* line 201, ../scss/_patterns.scss */
 .price-plan:hover .titlebox:after {
   border-color: black transparent;
 }
@@ -533,4 +532,118 @@ a:hover, a:focus {
 /* line 12, ../scss/_ngview.scss */
 .ng-leave-active {
   opacity: 0;
+}
+
+/* line 1, ../scss/_navigation.scss */
+.navbar-default {
+  background-color: black;
+  border: 0 none;
+}
+
+/* line 6, ../scss/_navigation.scss */
+.navbar {
+  min-height: 95px;
+}
+
+/* line 10, ../scss/_navigation.scss */
+.navbar-nav {
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+/* line 15, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+/* line 17, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #84ccd3;
+}
+
+/* line 22, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: #84ccd3;
+}
+/* line 26, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #84ccd3;
+}
+
+/* line 32, ../scss/_navigation.scss */
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+
+/* line 36, ../scss/_navigation.scss */
+.navbar-default .navbar-toggle {
+  border-color: white;
+  background-color: black;
+}
+/* line 40, ../scss/_navigation.scss */
+.navbar-default .navbar-toggle:hover {
+  border-color: #84ccd3;
+  background-color: transparent;
+}
+/* line 44, ../scss/_navigation.scss */
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* line 49, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > li > a.btn-signup {
+  background-color: #84ccd3;
+  color: white;
+  position: relative;
+  padding: 5px 15px;
+  margin-top: 10px;
+  max-width: 100px;
+}
+/* line 55, ../scss/_navigation.scss */
+.navbar-default .navbar-nav > li > a.btn-signup:hover, .navbar-default .navbar-nav > li > a.btn-signup:focus {
+  background-color: #5ebcc6;
+}
+
+/* line 59, ../scss/_navigation.scss */
+body {
+  padding-top: 95px;
+}
+
+/* line 1, ../scss/_carousel.scss */
+.carousel-control {
+  padding-top: 2px;
+  text-shadow: none;
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+/* line 14, ../scss/_carousel.scss */
+.carousel-caption {
+  text-align: left;
+}
+
+/* line 18, ../scss/_carousel.scss */
+.carousel-caption h1 > span {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* line 24, ../scss/_carousel.scss */
+.carousel-caption h2 > span {
+  text-shadow: none;
+  font-style: italic;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 24px;
+  display: inline-block;
 }

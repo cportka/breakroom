@@ -24,7 +24,6 @@
 .contentbox {
     @include contentbox-style (transparent, $gray);
     h2 {
-        margin-top: 0px;
         margin-bottom: 36px;
     }
     p {
@@ -40,10 +39,12 @@
     margin-top: 155px;
     margin-bottom: 120px;
 }
-.vertical-middle {
-    position: absolute;
-    left: 50%;
-    top: .5em;
+@media (min-width: 768px) {
+    .vertical-middle {
+        position: absolute;
+        left: 50%;
+        top: .5em;
+    }
 }
 @media (max-width: 768px) {
     .vertical-middle {
